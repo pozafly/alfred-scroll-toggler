@@ -6,5 +6,6 @@
 마우스를 사용하지 않고 다시 트랙패드를 사용해야할 때, 한번 더 명령을 하면 스크롤 방향이 원래대로 돌아옵니다.
 appleScript를 사용하였으며, Mac 설정 language가 Korean일 경우에만 동작합니다. 만약 language가 US로 설정되어 있다면, workflow 내 appleScript의 System Preference 명칭이 한글로 되어있는 부분을 영문으로 변경해 주면 됩니다.
 
+![](image/scroll-toggler.png)
 
-[Download](https://github.com/pozafly/alfred-scroll-toggler/raw/master/scroll-toggler.alfredworkflow)
+[Download](https://github.com/pozafly/alfred-scroll-toggler/raw/master/src/scroll-toggler.alfredworkflow)
