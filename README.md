@@ -1,13 +1,22 @@
-# alfred-scroll-toggler
+# Scroll Toggler Alfred Workflow
 
-키보드를 사용할 때와 트랙패드를 사용할 때, 맥 설정의 스크롤 방향을 'ss' 키워드로 바로 바꿔주는 workflow 입니다.
+맥에서 트랙패드와 마우스를 번갈아가며 사용할 때, 스크롤 방향을 쉽게 변경시킬 수 있습니다.
 
-맥북에 마우스를 연결해서 사용할 시 트랙패드 스크롤 방향이 반대로 설정되어있는 경우가 있습니다. <br/>
-그 때 alfred를 사용해 ss 명령어 하나로 스크롤 방향을 자연스럽게 변경시킬 수 있습니다. <br/>
-마우스를 사용하지 않고 다시 트랙패드를 사용해야할 때, 한번 더 명령을 하면 스크롤 방향이 원래대로 돌아옵니다. <br/>
-appleScript를 사용하였으며, Mac 설정 language가 Korean일 경우에만 동작합니다. <br/>
-만약 language가 US로 설정되어 있다면, workflow 내 appleScript의 System Preference 명칭이 한글로 되어있는 부분을 영문으로 변경해 주면 됩니다. <br/><br/>
+![scroll-toggler](image/scroll-toggler.png)
 
-![](image/scroll-toggler.png)
+## 설치
 
-[Download](https://github.com/pozafly/alfred-scroll-toggler/raw/master/src/scroll-toggler.alfredworkflow)
+[다운로드](https://github.com/pozafly/alfred-scroll-toggler/raw/master/src/scroll-toggler.alfredworkflow)를 클릭하면 파일을 다운로드 받으실 수 있어요 :)
+
+다운로드 파일을 실행시켜 Alfred에서 install 하시면 사용하실 수 있습니다.
+
+## 사용법
+
+1. Command-Spacebar 키를 눌러 알프레드 창을 띄웁니다.
+2. `ss` 입력 후 Enter
+
+## 주의사항
+
+- appleScript를 사용하였으며, Mac 설정 language가 Korean일 경우에만 동작합니다.
+- 만약 language가 US로 설정되어 있다면, workflow 내 appleScript의 System Preference 명칭이 한글로 되어있는 부분을 영문으로 변경해 주면 됩니다.
+- MacOS Ventura 대응 완료.
